@@ -1,0 +1,266 @@
+<div align="center">
+
+# Reshelve POS
+
+Modern Point of Sale Application built with Flutter
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Flutter-3.x-22C55E?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dart-3.x-22C55E?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-22C55E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge"/>
+<a href="https://github.com/Allenize">
+<img src="https://img.shields.io/badge/GitHub-Allenize-22C55E?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</p>
+
+A modern mobile-first Point of Sale application built with Flutter that helps businesses manage inventory, sales, receipts, barcode scanning, and customer debts in one intuitive application.
+
+</div>
+
+---
+
+# Overview
+
+Reshelve POS is a feature-rich Point of Sale application developed using Flutter. It is designed for retail stores, cafés, pharmacies, and other small businesses that need a reliable and easy-to-use sales management system.
+
+The application combines inventory management, barcode scanning, PDF receipt generation, analytics, and debt tracking into a clean and responsive mobile experience.
+
+---
+
+# Features
+
+### Sales
+
+- Shopping cart
+- Fast checkout
+- PDF receipts
+- Receipt printing
+- Sales history
+
+### Inventory
+
+- Product management
+- Category management
+- Stock monitoring
+- Low stock alerts
+- Search & filtering
+
+### Customer
+
+- Debt management
+- Payment tracking
+- Purchase history
+
+### Smart Features
+
+- Barcode scanner
+- Camera integration
+- Manual barcode entry
+
+### Dashboard
+
+- Revenue overview
+- Product analytics
+- Sales reports
+- Business insights
+
+### User Experience
+
+- Modern dark theme
+- Smooth animations
+- Responsive interface
+- Mobile-first design
+
+---
+
+# Technology Stack
+
+| Category | Technology |
+|-----------|------------|
+| Framework | Flutter |
+| Language | Dart |
+| State Management | Provider |
+| Local Storage | SharedPreferences |
+| Barcode Scanner | Mobile Scanner |
+| Camera | Image Picker |
+| PDF | PDF & Printing |
+| Export | Share Plus |
+| UUID | UUID |
+| File Storage | Path Provider |
+
+---
+
+# Project Structure
+
+```text
+lib/
+│
+├── main.dart
+├── theme.dart
+│
+├── models/
+│   ├── product.dart
+│   ├── sale.dart
+│   ├── debt.dart
+│   └── cart_item.dart
+│
+├── services/
+│   ├── app_store.dart
+│   └── database_service.dart
+│
+├── screens/
+│   ├── home_screen.dart
+│   ├── inventory_screen.dart
+│   ├── sales_screen.dart
+│   ├── scan_screen.dart
+│   ├── receipt_screen.dart
+│   └── more_screen.dart
+│
+└── widgets/
+    ├── shared_widgets.dart
+    ├── product_card.dart
+    ├── app_sheet.dart
+    ├── toast.dart
+    ├── add_edit_product_sheet.dart
+    ├── add_debt_sheet.dart
+    └── product_detail_sheet.dart
+```
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Allenize/reshelve-pos.git
+```
+
+Navigate into the project
+
+```bash
+cd reshelve-pos
+```
+
+Install dependencies
+
+```bash
+flutter pub get
+```
+
+Run the application
+
+```bash
+flutter run
+```
+
+---
+
+# Build
+
+### Android APK
+
+```bash
+flutter build apk --release
+```
+
+### Android App Bundle
+
+```bash
+flutter build appbundle --release
+```
+
+### iOS
+
+```bash
+flutter build ios --release
+```
+
+---
+
+# Dependencies
+
+| Package | Purpose |
+|----------|---------|
+| provider | State Management |
+| shared_preferences | Local Storage |
+| mobile_scanner | Barcode Scanner |
+| image_picker | Camera Integration |
+| pdf | PDF Generation |
+| printing | Printing Support |
+| share_plus | Backup & Export |
+| uuid | Unique IDs |
+| path_provider | File Storage |
+
+---
+
+# Optional Firebase
+
+For cloud synchronization, replace the local storage service with Firebase.
+
+Recommended packages:
+
+```yaml
+firebase_core
+cloud_firestore
+firebase_auth
+firebase_storage
+```
+
+Suggested collections:
+
+```text
+users/
+products/
+sales/
+customers/
+debts/
+```
+
+---
+
+# Roadmap
+
+- Authentication
+- Cloud Synchronization
+- Multi-user Support
+- Inventory Reports
+- Customer Profiles
+- Analytics Dashboard
+- Offline Mode
+- Backup & Restore
+- Multi-language Support
+- Light Theme
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+Developed by <strong>Allenize</strong>
+
+<a href="https://github.com/Allenize">github.com/Allenize</a>
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+</div>
